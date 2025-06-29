@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sameer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="block">
+            <div class="logo">
+                <h2>
+                    Sameer.portfolio
+                </h2>
+            </div>
+            <ion-icon name="menu-outline" id="hamburger" onclick="toggleMenu()"></ion-icon>
+        </div>
+        <ul id="list">
+            <li><a href="#hero" onclick="cls()">Home</a></li>
+            <li><a href="#about" onclick="cls()">About</a></li>
+            <li><a href="#skills" onclick="cls()">Skills</a></li>
+            <li><a href="#projects" onclick="cls()">Project</a></li>
+            <li><a href="#contact" onclick="cls()">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="hero">
+        <div class="name">
+            <h1>
+                Sameer Akhtar
+            </h1>
+            <p>
+                A Computer Science Engineering Student.
+            </p>
+            <a href="#about">
+                <button class="about-btn">
+                    About Me
+                </button>
+            </a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="another">
+            <div class="another2">
+
+                <h1>About Me</h1>
+          <div class="container">
+              <div class="img">
+                  <img src="my.jpeg" alt="Sameer's image">
+              </div>
+              <div class="about-me">
+                  <p>Hello!, I'm <strong>Sameer Akhtar</strong>. A <strong>Diploma in Computer
+                          Science student at Maulna Azad National National Urdu University(Hyderabad).</strong>
+                      I'm passionate about programming and currently exploring <strong>Artificial Intelligence and Machine
+                          Learning</strong> to expand my skills and knowledge.
+                          <div class="icons">
+                              <a href="https://www.linkedin.com/in/sameer-akhtar-5213b4369/">
+                                  <ion-icon name="logo-linkedin"></ion-icon>
+                              </a>
+                              <a href="https://github.com/coder-sameer">
+                                  <ion-icon name="logo-github"></ion-icon>
+                              </a>
+                              <a href="https://www.instagram.com/coder.sameer/?h1=en">
+                                  <ion-icon name="logo-instagram"></ion-icon>
+                              </a>
+                          </div>
+                  </p>
+              </div>
+          </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="another">
+            <div class="another2">
+
+                <h1>Skills & Technologies</h1>
+        
+                <div class="skill-cards">
+        
+                    <div class="card">
+                        <h3>HTML</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%;">
+        
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3>CSS</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%;">
+        
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3>JS</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 30%;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="projects">
+        <h1>Featured Projects</h1>
+        <div class="project-box">
+            <div class="project">
+                          <a href="https://coder-sameeer.github.io/world-clock/">
+                          <img src="world-clock.png" alt="world-clock">
+                          </a>
+                <h2>World Clock</h2>
+                <p>This is a World Clock apllication which shows real time amd date of different country of world.</p>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JS</span>
+            </div>
+            <div class="project">
+             <a href="https://coder-sameeer.github.io/SRMS/">
+                <img src="srms.png" alt="srms">
+                </a>
+                <h2>SRMS Project</h2>
+                <p>This is Student Result Management System Project. That allows user to add student result and download
+                    marksheet. </p>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JS</span>
+            </div>
+            <div class="project">
+             <a href="https://coder-sameeer.github.io/Calculator-Application/">
+                <img src="calculator.png" alt="calculator">
+                </a>
+                <h2>Calculator Project</h2>
+                <p>This is basic Calculator application which is made the help of HTML, CSS and JS.
+                    In wich you do basic calculations and mathematically operations(+,-,/,*)</p>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JS</span>
+            </div>
+            <div class="project">
+             <a href="https://coder-sameeer.github.io/To-Do-Application-/">
+                <img src="todo-list.png" alt="todo-list">
+                </a>
+                <h2>To-Do Application</h2>
+                <p>This is a To Do Application which is used for add you to do lists and tasks. Basically this web app
+                    is
+                    manage your daily to do tasks and plan. I ue HTML,CSS and JS also for this project.</p>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JS</span>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="footer-box">
+            <div class="social-links">
+                <a href=""><ion-icon name="logo-linkedin" id="social-conatact"></ion-icon>LinkedIn</a>
+                <a href=""><ion-icon name="logo-github" id="social-conatact"></ion-icon>GitHub</a>
+                <a href="tel:+917632912284"><ion-icon name="call-outline"
+                        id="social-conatact"></ion-icon>+91-7632912284</a>
+                <a href="mialto:sameerakhtar.hjp@gamil.com"><ion-icon name="mail-outline"
+                        id="social-conatact"></ion-icon>sameerakhtar.hjp@gmail.com</a>
+            </div>
+            <div class="msg">
+                Thanks For Visiting <br>
+                Please Keep Supporting...
+            </div>
+        </div>
+        <p>&copy; 2025 Sameer Akhtar. All rights reserved.</p>
+    </footer>
+
+    <script>
+        let menulist = document.getElementById("list")
+        menulist.style.maxHeight = "0px";
+        function toggleMenu() {
+            if (menulist.style.maxHeight == "0px") {
+                menulist.style.maxHeight = "60vh";
+            }
+            else {
+                menulist.style.maxHeight = "0px";
+            }
+        }
+        function cls() {
+            menulist.style.maxHeight = "0px";
+        }
+    </script>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
